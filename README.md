@@ -1,12 +1,14 @@
-# Projeto Livraria
+# Projeto Livraria Virtual
 
-Código referente a aplicação de livraria desenvolvida com Servlets, JSPs e JPA.
+Código referente a aplicação de uma livraria virtual desenvolvida com Servlets, JSPs, JPA e MySQL.<br>
+Projeto com o objetivo de estudos das tecnologias envolvidas.
 
-### Rodando o projeto
+### Rodando o projeto localmente
 
-Use:
+Acesse a raiz do projeto (onde se encontra o arquivo pom.xml) e execute o comando:
 
 ``` shell
+$ mvn clean package
 $ java -jar target/dependency/webapp-runner.jar target/*.war
 ```
 
